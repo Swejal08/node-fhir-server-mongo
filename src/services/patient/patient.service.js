@@ -63,6 +63,7 @@ let buildStu3SearchQuery = (args) => {
   let phonetic = args['phonetic'];
   let telecom = args['telecom'];
 
+
   let query = {};
   let ors = [];
 

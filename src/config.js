@@ -6,8 +6,8 @@ const env = require('var');
  * @summary Configurations for our Mongo instance
  */
 let mongoConfig = {
-  connection: `mongodb://${env.MONGO_HOSTNAME}`,
-  db_name: env.MONGO_DB_NAME,
+  connection: `mongodb://mongo:Fw06NaduKdadSzrsoCTl@containers-us-west-170.railway.app:5914`,
+  db_name: 'test',
   options: {
     auto_reconnect: true,
     useUnifiedTopology: true,
