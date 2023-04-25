@@ -6,7 +6,7 @@ const env = require('var');
  * @summary Configurations for our Mongo instance
  */
 let mongoConfig = {
-  connection: `mongodb://mongo:Fw06NaduKdadSzrsoCTl@containers-us-west-170.railway.app:5914`,
+  connection: `mongodb://mongo:D4g5SaZE966db8l07v73@containers-us-west-138.railway.app:7235`,
   db_name: 'test',
   options: {
     auto_reconnect: true,
